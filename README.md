@@ -115,14 +115,18 @@ MX_TIM2_Init();
 
 ## Output screen shots of proteus  :
   ## AT 500:
+![280251596-a17e9858-8644-46f5-b7d9-019e35b2cc15](https://github.com/charumathiramesh/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/120204455/273b4536-765d-461d-8b68-d5fee6b5dda3)
 
- ![242222021-205baa58-56a7-40fa-9cab-9722251d04b1](https://github.com/charumathiramesh/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/120204455/da9456a9-ba47-42c4-8be2-599699101f80)
 
   ## AT 700:
-![241978817-98ddde9a-4410-4e32-8695-107a6b9e8bf7](https://github.com/charumathiramesh/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/120204455/bc85fd2e-b79c-4738-aab3-f212e059a857)
+
+![280252852-a0b73a7e-7bcb-48a9-9107-d8b6ffdff36d](https://github.com/charumathiramesh/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/120204455/432d7a99-dc07-4a8d-b118-a412951d4463)
 
   ## AT 900:
-![241979131-a752f967-fb2c-4717-a80d-245266abf1cb](https://github.com/charumathiramesh/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/120204455/e506e8b9-4684-42da-920a-b2d6966d9847)
+![280252872-075ee7ad-612e-4cc0-9c5d-fc0546077669](https://github.com/charumathiramesh/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/120204455/2b089a7c-8c5a-4be1-ad65-73f713700948)
+
+  
+
 
  ## Output screen shots of proteus : 
 ![280249649-ee48609b-245d-41a5-beb5-1d59cefd6dfe](https://github.com/charumathiramesh/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/120204455/52bf1381-40e8-4065-8726-a964ed25f7d8)
@@ -135,28 +139,36 @@ MX_TIM2_Init();
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 FOR PULSE AT 500
-
-TON = 1.75ms
-TOFF= 1.75ms
-TOTAL TIME = 3.5ms
-FREQUENCY = 1/(TOTAL TIME) = 1/3.5ms = 285.7 Hz
+```
+ TON  = 2ms
+  TOFF = 2ms
+  TOTAL TIME = 4 
+  FREQUENCY = 1/(TOTAL TIME)
+            = 1/(410^-3)
+            = 250Hz
+```
 
 FOR PULSE AT 700
+```
+TON  = 2.17ms
+TOFF = 0.93ms
+TOTAL TIME = 3.1 
+FREQUENCY = 1/(TOTAL TIME)
+          = 1/(3.110^-3)
+          = 322.58Hz
 
-TON = 2.75ms
-TOFF= 0.75ms
-TOTAL TIME = 3.5ms
-FREQUENCY = 1/(TOTAL TIME) = 1/3.5ms = 285.7 Hz
-
+```
 
 FOR PULSE AT 900
+```
+TON  = 2.88ms
+TOFF = 0.32ms
+TOTAL TIME = 3.2 
+FREQUENCY = 1/(TOTAL TIME)
+          = 1/(3.210^-30
+          = 312.5Hz
 
-TON = 3ms
-TOFF= 0.5ms
-TOTAL TIME = 3.5ms
-FREQUENCY = 1/(TOTAL TIME) = 1/3.5ms = 285.7 Hz
-
-
+```
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
 
